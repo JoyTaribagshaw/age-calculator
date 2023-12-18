@@ -9,21 +9,28 @@
 <body>
   <div class="calculator-container">
     <form class="calculator-form">
-      <div>
+      <div id="title-div">
 <h1>Age Calculator</h1>
       </div>
-      <div>
-        <p>Date</p>
+      <hr>
+      <div class="input-div">
+      <div class="input">
+        <p class="input-p">Date</p>
         <input type="text" name="date" id="date" placeholder="dd" minlength="1" maxlength="2" required />
       </div>
-      <div>
-        <p>Month</p>
+      <div class="input">
+        <p class="input-p">Month</p>
         <input type="text" name="month" id="month" placeholder="mm" minlength="2" maxlength="2" required />
       </div>
-      <div>
-        <p>Year</p>
+      <div class="input">
+        <p class="input-p">Year</p>
         <input type="text" name="year" id="year" placeholder="yyyy" minlength="4" maxlength="4" required />
       </div>
+    </div>
+
+    <div id="button-div">
+      <button id="button" name="submit" value="submit" onclick="age()">Submit</button>
+    </div>
     </form>
   </div>
 </body>
