@@ -64,3 +64,10 @@ input[type=text]{
   padding: 10px 0;
   color: white;
 }
+
+.age{
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  font-weight: 600;
+}

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Age Calculator</title>
   <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
 </head>
 <body>
   <div class="calculator-container">
@@ -29,8 +30,10 @@
     </div>
 
     <div id="button-div">
-      <button id="button" name="submit" value="submit" onclick="age()">Submit</button>
+      <button id="button" name="submit" value="submit" onclick="age(event)">Submit</button>
     </div>
+
+    <div class="age" id="age"></div>
     </form>
   </div>
 </body>
